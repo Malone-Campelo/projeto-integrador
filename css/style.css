@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.senac-background {
+    background-color: #b4b4b422;
+    position: relative;
+    border-radius: 10px;
+}
+
+.link-icons {
+    position: absolute;
+    top: 50%;
+    right: 10rem;
+    transform: translateY(-50%);
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.logo-Senac {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px; 
+    height: auto;
+}
+
+.agenda-cursos {
+    background-color: orange;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.footer-site {
+    background-color: #333;
+    color: #ffffff;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    background-color: #ffffff;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h2 {
+    margin: 0.5rem 0;
+    color: rgb(255, 170, 0);
+}
+
+.card p {
+    color: blue;
+    font-family: 'Anton';
+    font-size: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px; 
+    object-fit: cover;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Anton', sans-serif; 
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+nav {
+    font-family: 'Anton';
+    background-color: #004ef5;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+}
+
+section {
+    margin: 2rem 0;
+}
