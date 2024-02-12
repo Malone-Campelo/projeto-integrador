@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
 
 body {
     font-family: Verdana, Tahoma, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
+    background-color: #c9c9c960;
+    overflow-x: hidden;
 }
 
 .senac-background {
-    background-color: #b4b4b422;
+    background-color: #c9c9c960;
     position: relative;
     border-radius: 10px;
+    padding: 50px;
 }
 
 .link-icons {
@@ -27,14 +30,15 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 150px; 
+    width: 180px; 
     height: auto;
 }
 
 .agenda-cursos {
-    background-color: orange;
-    padding: 25px;
-    border-radius: 10px;
+    background-color: #ffa600;
+    padding: 50px;
+    color: #073f7c;
+    font-size: 35px;
 }
 
 .footer-site {
@@ -45,6 +49,16 @@ body {
     width: 100%;
     text-align: center;
     padding: 10px;
+    width: 100%;
+    font-family: monospace;
+}
+.footer-site a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-site p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
 }
 
 .card-container {
@@ -60,6 +74,7 @@ body {
     text-align: center;
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 .card img {
@@ -70,12 +85,12 @@ body {
 
 .card h2 {
     margin: 0.5rem 0;
-    color: rgb(255, 170, 0);
+    color: #ffa600;
 }
 
 .card p {
-    color: blue;
-    font-family: 'Anton';
+    color: #073f7c;
+    font-family: 'Prostest Strike';
     font-size: 20px;
 }
 
@@ -91,18 +106,22 @@ h1 {
     padding: 20px;
     font-weight: bold;
     font-size: 35px;
-    font-family: 'Anton', sans-serif; 
+    font-family: 'Prostest Strike', sans-serif; 
 }
 
 h2 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+p {
+    font-family: 'Prostest Strike';
+    font-weight: bold;
 }
 
 nav {
-    font-family: 'Anton';
-    background-color: #004ef5;
+    font-family: 'Protest Strike';
+    background-color: #073f7c;
     font-size: 20px;
-    border-radius: 10px;
 }
 
 nav ul {
@@ -119,9 +138,16 @@ nav ul li {
 nav a {
     text-decoration: none;
     color: #ffffff;
-    padding: 20px;
+}
+
+hr {
+    color: #ffa600;
 }
 
 section {
-    margin: 2rem 0;
+    margin: 5rem 0;
+}
+
+button {
+    cursor: pointer;
 }
