@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
     margin: auto;
     padding: auto;
-    background-color: #c9c9c960;
+    background-color: #c9c9c950;
     overflow-x: hidden;
 }
 
@@ -74,7 +74,7 @@ body {
     text-align: center;
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .card img {
@@ -100,6 +100,10 @@ body {
     object-fit: cover;
 }
 
+.menu {
+    display: flex;
+    justify-content: center;
+}
 
 h1 {
     text-align: center;
@@ -151,3 +155,4 @@ section {
 button {
     cursor: pointer;
 }
+

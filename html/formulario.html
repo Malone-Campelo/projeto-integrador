@@ -17,45 +17,36 @@
             <a href="https://www.youtube.com/channel/UC_yU_o9HRxpoFxrkK7AATnw" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             <a href="https://cloud.plataforma.senac.br/senacportalaluno/#/login" target="_blank"><i class="fa-solid fa-user"></i></a>
         </div>
+        <div class="color-orange">
+        </div>
         <a href="index.html"><img src="../img/senac-logo-pi.png" alt="logo senac" class="logo-Senac"></a>
     </header>
-        
+    
     <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="https://www.pi.senac.br/institucional/bo" target="_blank">Banco de Oportunidade</a></li>
-            <li><a href="https://www.ead.senac.br/" target="_blank">EAD</a></li>
-            <li><a href="https://www.pi.senac.br/institucional/atendimentocorporativo" target="_blank">Coorporativo</a></li>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.pi.senac.br/institucional/bo" target="_blank">Banco de Oportunidade</a></li>
+                <li><a href="https://www.ead.senac.br/" target="_blank">EAD</a></li>
+                <li><a href="https://www.pi.senac.br/institucional/atendimentocorporativo" target="_blank">Coorporativo</a></li>
         </ul>
     </nav>
-    <main> 
-        <h2 class="agenda-cursos">Agenda de Cursos</h2>
-        <section class="card-container">
-        <div class="card">
-            <img src="../img/imagem-programacao.webp" alt="imagem curso de programacao">
-            <h2>Programação</h2>
-            <p>Duração: 1200 Horas</p>
-            <hr>
-            <a href="formulario.html"><button>Realizar pré matricula</button></a>
-        </div>
-        <div class="card">
-            <img src="../img/técnico-em-informática.jpg" alt="imagem do curso de teclonogia">
-            <h2>Tecnico em Informática</h2>
-            <p>Duração: 1200 Horas</p>
-            <hr>
-            <a href="formulario.html"><button>Realizar pré matricula</button></a>
-        </div>
-        <div class="card">
-            <img src="../img/curso-excel-graficos-1.jpg" alt="imagem curso excel">
-            <h2>Excel</h2>
-            <p>Duração: 60 Horas</p>
-            <hr>
-           <a href="formulario.html"><button>Realizar pré matricula</button></a>
-        </div>
-    </section>
+
+    <main>
+        <form id="courseForm">
+            <label for="course">Para realizar a sua pré matricula escolha o seu curso:</label>
+            <select id="course" name="course">
+                <option value="course1">Programador</option>
+                <option value="course2">Tecnico em Informática</option>
+                <option value="course3">Excel</option>
+            </select>
+    
+            <label for="name">Nome Campleto:</label>
+            <input type="text" id="name" name="name" required placeholder="Digite seu nome completo">
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Exemplo@gmail.com">
+    
+    
+            <button type="submit">Pré matricular</button>
+        </form>
     </main>
-    <footer class="footer-site">
-        <p>Desenvolvido por <a href="https://github.com/Malone-Campelo">Malone Campelo</a> &copy;</p>
-    </footer>
-</body>
-</html>
